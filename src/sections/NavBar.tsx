@@ -9,7 +9,7 @@ function NaVBar() {
         setNavMenu(!navMenu)
     }
     return (
-        <nav className="md:h-18 h-auto fixed flex justify-between w-screen p-5 bg-transparent backdrop-blur-md  transition duration-300">
+        <nav className="md:h-18 h-auto fixed flex justify-between w-screen p-5 bg-transparent backdrop-blur-md  transition duration-300 z-50" >
             <div>
                 <a href="#Header" className=" font-Poetsen text-2xl">
                     KL
